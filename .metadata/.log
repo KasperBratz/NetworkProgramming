@@ -1,0 +1,142 @@
+!SESSION 2016-04-05 10:15:08.002 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.412
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.association_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.427
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green_3.1.0.RC1.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.432
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.dependency_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.452
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.help_3.1.0.RC1.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.462
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.generalization_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.477
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.realization_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.483
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.composition_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 10:15:22.489
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.save.svg_1.0.0.
+
+!ENTRY org.eclipse.ui 2 0 2016-04-05 10:15:48.929
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.tigris.subversion.clientadapter.javahl 1 0 2016-04-05 10:18:04.449
+!MESSAGE Failed to load JavaHL Library.
+These are the errors that were encountered:
+no libsvnjavahl-1 in java.library.path
+no svnjavahl-1 in java.library.path
+no svnjavahl in java.library.path
+java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2016-04-05 10:18:06.705
+!MESSAGE Could not auto-share project WebbDownloader
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'WebbDownloader'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:138)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2016-04-05 10:18:06.717
+!MESSAGE Provided SVN information does not match that on disk for project 'WebbDownloader'.
+!SESSION 2016-04-05 11:21:10.510 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-04-05 11:21:14.112
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2016-04-05 11:21:23.031
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+!SESSION 2016-04-05 12:52:37.009 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.306
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.association_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.313
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green_3.1.0.RC1.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.321
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.dependency_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.327
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.help_3.1.0.RC1.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.341
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.generalization_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.349
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.realization_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.359
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.composition_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 12:52:43.367
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.save.svg_1.0.0.
+
+!ENTRY org.eclipse.ui 2 0 2016-04-05 12:53:20.362
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+!SESSION 2016-04-05 14:22:28.459 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.234
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.association_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.253
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green_3.1.0.RC1.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.269
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.dependency_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.284
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.help_3.1.0.RC1.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.295
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.generalization_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.309
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.realization_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.316
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.relationship.composition_2.5.0.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-04-05 14:22:35.325
+!MESSAGE Unable to acquire PluginConverter service during generation for: /h/d2/p/dat12kbr/.eclipse/org.eclipse.platform_4.3.0_1342667963_linux_gtk_x86_64/plugins/edu.buffalo.cse.green.save.svg_1.0.0.
+
+!ENTRY org.eclipse.ui 2 0 2016-04-05 14:23:13.626
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
